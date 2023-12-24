@@ -36,7 +36,7 @@ class Pomodoro(QWidget):
         self.seconds = 60
         self.break_time_minutes = 5
         ### CLOCK STYLE ###
-        QFontDatabase.addApplicationFont("Seven Segment")
+        QFontDatabase.addApplicationFont("Seven Segment.ttf")
         self.timer_font = QFont("Seven Segment", 100)
         self.timer_font.setLetterSpacing(QFont.SpacingType.PercentageSpacing, 115)
         self.timer_label = QLabel("20:00")
