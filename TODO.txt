@@ -1,0 +1,9 @@
+
+
+	TODO for Pomodoro :)
+		- Icono en formato .ico [OK!]
+		- Personalizar botones [OK!]
+		- ver el tema de la fuente
+		- personalizar con imagenes o algo en fondo del timer [OK!]
+		- agregar sonido de inicio y fin del pomodoro [OK!]
+		- probar en el portatil
