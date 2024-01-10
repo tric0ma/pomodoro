@@ -52,6 +52,6 @@ Hi im tric0, and pomodoro is a timer with break time designed in Python.
 
     - GUI for pomodoro designed with PySide6
     - Set pomodoro timer from 1 to 60 minutes
-    - Set break timer from 1 to 30 minutes
+    - Set break timer from 0 to 30 minutes
     - Start, Stop, Resume and Reset buttons for global timer
     - Green screen means break time
