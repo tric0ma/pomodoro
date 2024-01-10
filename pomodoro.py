@@ -25,7 +25,7 @@ class Pomodoro(QWidget):
         self.pomodoro_break_slider.setOrientation(Qt.Orientation.Horizontal)
         self.pomodoro_break_slider.setStyleSheet("margin: 15px 0px 15px 0px;")
         self.pomodoro_break_slider.setTickPosition(QSlider.TickPosition.TicksAbove)
-        self.pomodoro_break_slider.setMinimum(1)
+        self.pomodoro_break_slider.setMinimum(0)
         self.pomodoro_break_slider.setMaximum(30)
         self.pomodoro_break_slider.setTickInterval(1)
 
@@ -147,10 +147,14 @@ class Pomodoro(QWidget):
 
         elif self.minutes == 0:
             if self.minutes == 0 and (self.seconds == 0 or self.seconds == 60):
-
-                pomodoro_end_sound.play()
+                
                 self.timer.stop()
-                self.start_break_time()
+                valor = self.pomodoro_break_slider.value()
+                if valor > 0:
+                    pomodoro_end_sound.play()    
+                    self.start_break_time()
+                else:
+                    self.start_timer()
         self.update_gui()
 
     ### UPDATE BREAK TIMER FUNCTION
