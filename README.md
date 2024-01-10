@@ -25,13 +25,13 @@ Hi im tric0, and pomodoro is a timer with break time designed in Python.
             Clone the repository from GitHub in the actual route:
             - git clone https://github.com/tric0ma/pomodoro.git
         
-            Change directory and go inside the new folder called "getyt":
+            Change directory and go inside the new folder called "pomodoro":
             - cd pomodoro
             
             Activate virtual environment:
             - source venv_pomodoro/bin/activate
           
-            Install python libraries if you dont have requirements.txt:
+            Install python libraries:
             - pip install PySide6
         
             Run the python script. You have to be in getyt directory:
