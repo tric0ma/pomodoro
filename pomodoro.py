@@ -206,15 +206,15 @@ if __name__ == "__main__":
     icon.addFile("icon.ico")
     pomodoro.setWindowIcon(icon)
     click_sound = QSoundEffect()
-    click_sound.setSource(QUrl.fromLocalFile("click.wav"))
+    click_sound.setSource(QUrl.fromLocalFile("sounds/click.wav"))
     click_sound.setVolume(0.4)
     
     tic_tac_sound = QSoundEffect()
-    tic_tac_sound.setSource(QUrl.fromLocalFile("tic-tac.wav"))
+    tic_tac_sound.setSource(QUrl.fromLocalFile("sounds/tic-tac.wav"))
     tic_tac_sound.setVolume(0.8)
 
     pomodoro_end_sound = QSoundEffect()
-    pomodoro_end_sound.setSource(QUrl.fromLocalFile("pomodoro_end_sound.wav"))
+    pomodoro_end_sound.setSource(QUrl.fromLocalFile("sounds/pomodoro_end_sound.wav"))
     pomodoro_end_sound.setVolume(0.6)
 
 
