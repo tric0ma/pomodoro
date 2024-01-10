@@ -27,9 +27,13 @@ Hi im tric0, and pomodoro is a timer with break time designed in Python.
         
             Change directory and go inside the new folder called "pomodoro":
             - cd pomodoro
+
+            Create virtual environment:
+            - python -m venv venv_pomodoro
             
             Activate virtual environment:
-            - source venv_pomodoro/bin/activate
+            - source venv_pomodoro/bin/activate (Linux)
+            - source venv_pomodoro/Scripts/activate (Windows)
           
             Install python libraries:
             - pip install PySide6
